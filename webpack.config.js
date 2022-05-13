@@ -1,9 +1,26 @@
-let path = require("path")
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+const path = require("path")
+
 module.exports = {
-    mode:"production",
-    entry: './src/index.js', //打包文件入口
-    output: {               //打包文件出口
-        path: path.resolve(__dirname, "dist"),
-        filename: '[name].[contenthash].js'
+    mode:"development",
+    entry: "./src/main.js",
+    output: {
+        filename: 'main.js',
+        path: path.resolve(__dirname, './dist')
+    },
+    plugins: [
+        new HtmlWebpackPlugin({
+            title: '首页1'
+        })
+    ],
+    module: {
+        rules: [
+            {
+                test: /\.css$/,  //使用正则表达式匹配.css文件
+                use: ['style-loader', 'css-loader']
+            }
+        ]
     }
 }
+
