@@ -1,5 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const path = require("path")
 
 module.exports = {
@@ -15,8 +15,10 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: '首页1'
-        })
+            title: '首页1',
+            template:"./src/assets/index.html"
+        }),
+        new MiniCssExtractPlugin()
     ],
     module: {
         rules: [
