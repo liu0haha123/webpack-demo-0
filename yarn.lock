@@ -735,7 +735,7 @@ cliui@^5.0.0:
 
 clone-deep@^4.0.1:
   version "4.0.1"
-  resolved "https://registry.npmmirror.com/clone-deep/-/clone-deep-4.0.1.tgz"
+  resolved "https://registry.npmmirror.com/clone-deep/-/clone-deep-4.0.1.tgz#c19fd9bdbbf85942b4fd979c84dcf7d5f07c2387"
   integrity sha512-neHB9xuzh/wk0dIHweyAXv2aPGZIVk3pLMe+/RNzINf17fe0OG96QroktYAUm7SM1PBnzTabaLboqqxDyMU+SQ==
   dependencies:
     is-plain-object "^2.0.4"
@@ -1016,7 +1016,7 @@ cyclist@^1.0.1:
 
 dart-sass@^1.23.7:
   version "1.25.0"
-  resolved "https://registry.npmmirror.com/dart-sass/-/dart-sass-1.25.0.tgz"
+  resolved "https://registry.npmmirror.com/dart-sass/-/dart-sass-1.25.0.tgz#e00c0348118916e9d81cb485297184c131af1dad"
   integrity sha512-syNOAstJXAmvD3RifcDk3fiPMyYE2fY8so6w9gf2/wNlKpG0zyH+oiXubEYVOy1WAWkzOc72pbAxwx+3OU4JJA==
   dependencies:
     chokidar ">=2.0.0 <4.0.0"
@@ -3565,7 +3565,7 @@ safe-regex@^1.1.0:
 
 sass-loader@^8.0.0:
   version "8.0.2"
-  resolved "https://registry.npmmirror.com/sass-loader/-/sass-loader-8.0.2.tgz"
+  resolved "https://registry.npmmirror.com/sass-loader/-/sass-loader-8.0.2.tgz#debecd8c3ce243c76454f2e8290482150380090d"
   integrity sha512-7o4dbSK8/Ol2KflEmSco4jTjQoV988bM82P9CZdmo9hR3RLnvNc0ufMNdMrB0caq38JQ/FgF4/7RcbcfKzxoFQ==
   dependencies:
     clone-deep "^4.0.1"
@@ -3708,7 +3708,7 @@ sha.js@^2.4.0, sha.js@^2.4.8:
 
 shallow-clone@^3.0.0:
   version "3.0.1"
-  resolved "https://registry.npmmirror.com/shallow-clone/-/shallow-clone-3.0.1.tgz"
+  resolved "https://registry.npmmirror.com/shallow-clone/-/shallow-clone-3.0.1.tgz#8f2981ad92531f55035b01fb230769a40e02efa3"
   integrity sha512-/6KqX+GVUdqPuPPd2LxDDxzX6CAbjJehAAOKlNpqqUpAqPM6HeL8f+o3a+JsyGjn2lv0WY8UsTgUJjU9Ok55NA==
   dependencies:
     kind-of "^6.0.2"

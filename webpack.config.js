@@ -16,17 +16,24 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             title: '首页1',
-            template:"./src/assets/index.html"
+            template: "./src/assets/index.html"
         }),
         new MiniCssExtractPlugin()
     ],
     module: {
-        rules: [
-            {
-                test: /\.css$/,  //使用正则表达式匹配.css文件
-                use: ['style-loader', 'css-loader']
-            }
-        ]
+        rules: [{
+            test: /\.scss$/,
+            use: [{
+                loader: "style-loader"
+            }, {
+                loader: "css-loader"
+            }, {
+                loader: "sass-loader",
+                options: {
+                    implementation:require("dart-sass")
+                }
+            }]
+        }]
     }
 }
 
