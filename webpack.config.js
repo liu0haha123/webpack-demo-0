@@ -3,7 +3,11 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require("path")
 
 module.exports = {
-    mode:"development",
+    mode: "development",
+    devtool: "inline-source-map",
+    devServer: {
+        contentBase: './dist' // 如果出错，请将 contentBase 替换为 static
+    },
     entry: "./src/main.js",
     output: {
         filename: 'main.js',
